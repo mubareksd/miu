@@ -1,8 +1,0 @@
--------------------------------------------------------------------------------
-Test set: miu_03.Maintest
--------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.145 s <<< FAILURE! - in miu_03.Maintest
-testSix  Time elapsed: 0.09 s  <<< FAILURE!
-org.opentest4j.AssertionFailedError: expected: [C@702657cc<[b, c]> but was: [C@6a6cb05c<[b, c]>
-	at miu_03.Maintest.testSix(Maintest.java:77)
-
