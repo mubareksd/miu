@@ -9,17 +9,21 @@ package miu_01;
  * @author mubareksd
  */
 public class SolutionOne {
-    
-    public int isCentered(int[] array) {
-        if (array == null || array.length % 2 == 0)
-            return 0;
-        int centerIndex = array.length / 2;
-        int centerItem = array[centerIndex];
-        for (int i = 0; i < array.length; i++) {
-            if (i != centerIndex && centerItem >= array[i])
+
+    public int isCentered(int[] a) {
+        if (a == null || a.length % 2 == 0) {
+            if (a == null || a.length % 2 == 0) {
                 return 0;
+            }
+        }
+        int midIndex = a.length / 2;
+        int middleItem = a[midIndex];
+        for (int i = 0; i < a.length; i++) {
+            if (i != midIndex && middleItem >= a[i]) {
+                return 0;
+            }
         }
         return 1;
     }
-    
+
 }
