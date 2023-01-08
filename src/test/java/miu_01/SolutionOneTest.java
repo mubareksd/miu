@@ -4,6 +4,7 @@
  */
 package miu_01;
 
+import static miu_01.SolutionOne.f;
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
 
@@ -11,49 +12,53 @@ import org.junit.jupiter.api.Test;
  *
  * @author mubareksd
  */
-class SolutionOneTest {
-    
-    SolutionOne solution = new SolutionOne();
-    
+public class SolutionOneTest {
+
     @Test
-    void testOne() {
-        
-        int[] array = {1, 2, 3, 4, 5};
-        assertEquals(0, solution.f(array));
+    public void testOne() {
+
+        int[] a = {1, 2, 3, 4, 5};
+        int expected = 0;
+        assertEquals(expected, f(a));
     }
-    
+
     @Test
-    void testTwo() {
-        
-        int[] array = {3, 2, 1, 4, 5};
-        assertEquals(1, solution.f(array));
+    public void testTwo() {
+
+        int[] a = {3, 2, 1, 4, 5};
+        int expected = 1;
+        assertEquals(expected, f(a));
     }
-    
+
     @Test
-    void testThree() {
-        
-        int[] array = {3, 2, 1, 4, 1};
-        assertEquals(0, solution.f(array));
+    public void testThree() {
+
+        int[] a = {3, 2, 1, 4, 1};
+        int expected = 0;
+        assertEquals(expected, f(a));
     }
-    
+
     @Test
-    void testFour() {
-        
-        int[] array = {1, 2, 3, 4};
-        assertEquals(0, solution.f(array));
+    public void testFour() {
+
+        int[] a = {1, 2, 3, 4};
+        int expected = 0;
+        assertEquals(expected, f(a));
     }
-    
+
     @Test
-    void testFive() {
-        
-        int[] array = {};
-        assertEquals(0, solution.f(array));
+    public void testFive() {
+
+        int[] a = {};
+        int expected = 0;
+        assertEquals(expected, f(a));
     }
-    
+
     @Test
-    void testSix() {
-        
-        int[] array = {10};
-        assertEquals(1, solution.f(array));
+    public void testSix() {
+
+        int[] a = {10};
+        int expected = 1;
+        assertEquals(expected, f(a));
     }
 }
