@@ -10,7 +10,12 @@ package miu_01;
  */
 public class SolutionOne {
 
-    public int f(int[] a) {
+    public static void main(String[] args) {
+        // System.out.println(isSequencedArray(new int[]{1,2,3,4,5}, 1, 5));
+        System.out.println(f(new int[]{1,2,3,4,5}));
+    }
+
+    static int f(int[] a) {
         if (a == null || a.length % 2 == 0) {
             if (a == null || a.length % 2 == 0) {
                 return 0;
