@@ -11,61 +11,61 @@ import static org.junit.jupiter.api.Assertions.*;
  *
  * @author mubareksd
  */
-public class MainTest {
+public class SolutionOneTest {
 
     SolutionOne solution = new SolutionOne();
 
     @Test
     public void testOne() {
         int[] array = {1};
-        assertEquals(1, solution.sumOddEven(array));
+        assertEquals(1, solution.f(array));
     }
     
     @Test
     public void testTwo() {
         int[] array = {1, 2};
-        assertEquals(-1, solution.sumOddEven(array));
+        assertEquals(-1, solution.f(array));
     }
     
     @Test
     public void testThree() {
         int[] array = {1, 2, 3};
-        assertEquals(2, solution.sumOddEven(array));
+        assertEquals(2, solution.f(array));
     }
     
     @Test
     public void testFour() {
         int[] array = {1, 2, 3, 4};
-        assertEquals(-2, solution.sumOddEven(array));
+        assertEquals(-2, solution.f(array));
     }
     
     @Test
     public void testFive() {
         int[] array = {3, 3, 4, 4};
-        assertEquals(-2, solution.sumOddEven(array));
+        assertEquals(-2, solution.f(array));
     }
     
     @Test
     public void testSix() {
         int[] array = {3, 2, 3, 4};
-        assertEquals(0, solution.sumOddEven(array));
+        assertEquals(0, solution.f(array));
     }
     
     @Test
     public void testSeven() {
         int[] array = {4, 1, 2, 3};
-        assertEquals(-2, solution.sumOddEven(array));
+        assertEquals(-2, solution.f(array));
     }
     
     @Test
     public void testEight() {
         int[] array = {1, 1};
-        assertEquals(2, solution.sumOddEven(array));
+        assertEquals(2, solution.f(array));
     }
     
     @Test
     public void testNine() {
         int[] array = {};
-        assertEquals(0, solution.sumOddEven(array));
+        assertEquals(0, solution.f(array));
     }
 }
