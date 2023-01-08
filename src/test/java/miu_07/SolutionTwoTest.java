@@ -4,6 +4,7 @@
  */
 package miu_07;
 
+import static miu_07.SolutionTwo.primeCount;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -13,14 +14,12 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class SolutionTwoTest {
     
-    SolutionTwo solution = new SolutionTwo();
-    
     @Test
     public void testOne() {
         int star = 10;
         int end = 30;
         int expected = 6;
-        assertEquals(expected, solution.primeCount(star, end));
+        assertEquals(expected, primeCount(star, end));
     }
     
     @Test
@@ -28,7 +27,7 @@ public class SolutionTwoTest {
         int star = 11;
         int end = 29;
         int expected = 6;
-        assertEquals(expected, solution.primeCount(star, end));
+        assertEquals(expected, primeCount(star, end));
     }
     
     @Test
@@ -36,7 +35,7 @@ public class SolutionTwoTest {
         int star = 20;
         int end = 22;
         int expected = 0;
-        assertEquals(expected, solution.primeCount(star, end));
+        assertEquals(expected, primeCount(star, end));
     }
     
     @Test
@@ -44,7 +43,7 @@ public class SolutionTwoTest {
         int star = 1;
         int end = 1;
         int expected = 0;
-        assertEquals(expected, solution.primeCount(star, end));
+        assertEquals(expected, primeCount(star, end));
     }
     
     @Test
@@ -52,7 +51,7 @@ public class SolutionTwoTest {
         int star = 5;
         int end = 5;
         int expected = 1;
-        assertEquals(expected, solution.primeCount(star, end));
+        assertEquals(expected, primeCount(star, end));
     }
     
     @Test
@@ -60,7 +59,7 @@ public class SolutionTwoTest {
         int star = 6;
         int end = 2;
         int expected = 0;
-        assertEquals(expected, solution.primeCount(star, end));
+        assertEquals(expected, primeCount(star, end));
     }
     
     @Test
@@ -68,6 +67,6 @@ public class SolutionTwoTest {
         int star = -10;
         int end = 6;
         int expected = 3;
-        assertEquals(expected, solution.primeCount(star, end));
+        assertEquals(expected, primeCount(star, end));
     }
 }
