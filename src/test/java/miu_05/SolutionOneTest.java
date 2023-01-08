@@ -4,6 +4,7 @@
  */
 package miu_05;
 
+import static miu_05.SolutionOne.f;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -13,13 +14,11 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class SolutionOneTest {
     
-    SolutionOne solution = new SolutionOne();
-    
     @Test
     public void testOne() {
         int[] first = {1, 8, 3, 2}, second = {4, 2, 6, 1};
         int[] expected = {1, 2};
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
     
@@ -27,7 +26,7 @@ public class SolutionOneTest {
     public void testTwo() {
         int[] first = {1, 8, 3, 2, 6}, second = {2, 6, 1};
         int[] expected = {2, 6, 1};
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
     
@@ -35,7 +34,7 @@ public class SolutionOneTest {
     public void testThree() {
         int[] first = {1, 3, 7, 9}, second = {7, 1, 9, 3};
         int[] expected = {1, 3, 7, 9};
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
     
@@ -43,7 +42,7 @@ public class SolutionOneTest {
     public void testFour() {
         int[] first = {1, 2}, second = {3, 4};
         int[] expected = {};
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
     
@@ -51,7 +50,7 @@ public class SolutionOneTest {
     public void testFive() {
         int[] first = {}, second = {1, 2, 3};
         int[] expected = {};
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
     
@@ -59,7 +58,7 @@ public class SolutionOneTest {
     public void testSix() {
         int[] first = {1, 2}, second = {};
         int[] expected = {};
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
     
@@ -67,7 +66,7 @@ public class SolutionOneTest {
     public void testSeven() {
         int[] first = {1, 2}, second = null;
         int[] expected = null;
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
     
@@ -75,7 +74,7 @@ public class SolutionOneTest {
     public void testEight() {
         int[] first = null, second = {};
         int[] expected = null;
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
     
@@ -83,7 +82,7 @@ public class SolutionOneTest {
     public void testNine() {
         int[] first = null, second = null;
         int[] expected = null;
-        assertArrayEquals(expected, solution.f(first, second));
+        assertArrayEquals(expected, f(first, second));
         
     }
 }

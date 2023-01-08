@@ -10,7 +10,7 @@ package miu_05;
  */
 public class SolutionOne {
 
-    public int[] f(int[] first, int[] second) {
+    public static int[] f(int[] first, int[] second) {
         if (first == null || second == null) {
             return null;
         }
