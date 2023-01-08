@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
  *
  * @author mubareksd
  */
-class MainTest {
+class SolutionOneTest {
     
     SolutionOne solution = new SolutionOne();
     
@@ -19,41 +19,41 @@ class MainTest {
     void testOne() {
         
         int[] array = {1, 2, 3, 4, 5};
-        assertEquals(0, solution.isCentered(array));
+        assertEquals(0, solution.f(array));
     }
     
     @Test
     void testTwo() {
         
         int[] array = {3, 2, 1, 4, 5};
-        assertEquals(1, solution.isCentered(array));
+        assertEquals(1, solution.f(array));
     }
     
     @Test
     void testThree() {
         
         int[] array = {3, 2, 1, 4, 1};
-        assertEquals(0, solution.isCentered(array));
+        assertEquals(0, solution.f(array));
     }
     
     @Test
     void testFour() {
         
         int[] array = {1, 2, 3, 4};
-        assertEquals(0, solution.isCentered(array));
+        assertEquals(0, solution.f(array));
     }
     
     @Test
     void testFive() {
         
         int[] array = {};
-        assertEquals(0, solution.isCentered(array));
+        assertEquals(0, solution.f(array));
     }
     
     @Test
     void testSix() {
         
         int[] array = {10};
-        assertEquals(1, solution.isCentered(array));
+        assertEquals(1, solution.f(array));
     }
 }
