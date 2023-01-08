@@ -10,7 +10,7 @@ package miu_01;
  */
 public class SolutionOne {
 
-    public int isCentered(int[] a) {
+    public int f(int[] a) {
         if (a == null || a.length % 2 == 0) {
             if (a == null || a.length % 2 == 0) {
                 return 0;
