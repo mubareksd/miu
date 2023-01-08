@@ -4,6 +4,7 @@
  */
 package miu_02;
 
+import static miu_02.SolutionOne.f;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -13,59 +14,66 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class SolutionOneTest {
 
-    SolutionOne solution = new SolutionOne();
-
     @Test
     public void testOne() {
-        int[] array = {1};
-        assertEquals(1, solution.f(array));
+        int[] a = {1};
+        int expected = 1;
+        assertEquals(expected, f(a));
     }
     
     @Test
     public void testTwo() {
-        int[] array = {1, 2};
-        assertEquals(-1, solution.f(array));
+        int[] a = {1, 2};
+        int expected = -1;
+        assertEquals(expected, f(a));
     }
     
     @Test
     public void testThree() {
-        int[] array = {1, 2, 3};
-        assertEquals(2, solution.f(array));
+        int[] a = {1, 2, 3};
+        int expected = 2;
+        assertEquals(expected, f(a));
     }
     
     @Test
     public void testFour() {
-        int[] array = {1, 2, 3, 4};
-        assertEquals(-2, solution.f(array));
+        int[] a = {1, 2, 3, 4};
+        int expected = -2;
+        assertEquals(expected, f(a));
     }
     
     @Test
     public void testFive() {
-        int[] array = {3, 3, 4, 4};
-        assertEquals(-2, solution.f(array));
+        int[] a = {3, 3, 4, 4};
+        int expected = -2;
+        assertEquals(expected, f(a));
     }
     
     @Test
     public void testSix() {
-        int[] array = {3, 2, 3, 4};
-        assertEquals(0, solution.f(array));
+        int[] a = {3, 2, 3, 4};
+        int expected = 0;
+        assertEquals(expected, f(a));
     }
     
     @Test
     public void testSeven() {
-        int[] array = {4, 1, 2, 3};
-        assertEquals(-2, solution.f(array));
+        int[] a = {4, 1, 2, 3};
+        int expected = -2;
+        assertEquals(expected, f(a));
     }
     
     @Test
     public void testEight() {
-        int[] array = {1, 1};
-        assertEquals(2, solution.f(array));
+        int[] a = {1, 1};
+        int expected = 2;
+        assertEquals(expected, f(a));
     }
     
     @Test
     public void testNine() {
-        int[] array = {};
-        assertEquals(0, solution.f(array));
+        int[] a = {};
+        int expected = 0;
+        assertEquals(expected, f(a));
     }
 }
