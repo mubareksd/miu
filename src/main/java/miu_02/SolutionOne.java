@@ -9,7 +9,7 @@ package miu_02;
  * @author mubareksd
  */
 public class SolutionOne {
-    public int sumOddEven(int[] array) {
+    public int f(int[] array) {
         int sumEven = 0;
         int sumOdd = 0;
         
