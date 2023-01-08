@@ -10,7 +10,7 @@ package miu_04;
  */
 public class SolutionOne {
 
-    public int f(int n) {
+    public static int f(int n) {
         int sign = 1;
         if (n == 0) {
             return 0;
