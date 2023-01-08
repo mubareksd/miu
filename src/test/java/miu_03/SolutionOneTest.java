@@ -4,6 +4,7 @@
  */
 package miu_03;
 
+import static miu_03.SolutionOne.f;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -13,15 +14,13 @@ import static org.junit.jupiter.api.Assertions.*;
  */
 public class SolutionOneTest {
     
-    SolutionOne solution = new SolutionOne();
-    
     @Test
     public void testOne() {
         char[] a = {'a', 'b', 'c'};
         int start = 0;
         int len = 4;
         char[] expected = null;
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
         
     }
     
@@ -31,7 +30,7 @@ public class SolutionOneTest {
         int start = 0;
         int len = 3;
         char[] expected = {'a', 'b', 'c'};
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
         
     }
     
@@ -41,7 +40,7 @@ public class SolutionOneTest {
         int start = 0;
         int len = 2;
         char[] expected = {'a', 'b'};
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
         
     }
     
@@ -51,7 +50,7 @@ public class SolutionOneTest {
         int start = 0;
         int len = 1;
         char[] expected = {'a'};
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
         
     }
     
@@ -61,7 +60,7 @@ public class SolutionOneTest {
         int start = 1;
         int len = 3;
         char[] expected = null;
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
         
     }
     
@@ -71,7 +70,7 @@ public class SolutionOneTest {
         int start = 1;
         int len = 2;
         char[] expected = {'b', 'c'};
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
         
     }
     
@@ -81,7 +80,7 @@ public class SolutionOneTest {
         int start = 1;
         int len = 1;
         char[] expected = {'b'};
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
         
     }
     
@@ -91,7 +90,7 @@ public class SolutionOneTest {
         int start = 2;
         int len = 2;
         char[] expected = null;
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
     }
     
     @Test
@@ -100,7 +99,7 @@ public class SolutionOneTest {
         int start = 2;
         int len = 1;
         char[] expected = {'c'};
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
     }
     
     @Test
@@ -109,7 +108,7 @@ public class SolutionOneTest {
         int start = 3;
         int len = 1;
         char[] expected = null;
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
     }
     
     @Test
@@ -118,7 +117,7 @@ public class SolutionOneTest {
         int start = 1;
         int len = 0;
         char[] expected = {};
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
     }
     
     @Test
@@ -127,7 +126,7 @@ public class SolutionOneTest {
         int start = -1;
         int len = 0;
         char[] expected = null;
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
     }
     
     @Test
@@ -136,7 +135,7 @@ public class SolutionOneTest {
         int start = -1;
         int len = -2;
         char[] expected = null;
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
     }
 
     @Test
@@ -145,6 +144,6 @@ public class SolutionOneTest {
         int start = 0;
         int len = 1;
         char[] expected = null;
-        assertArrayEquals(expected, solution.f(a, start, len));
+        assertArrayEquals(expected, f(a, start, len));
     } 
 }

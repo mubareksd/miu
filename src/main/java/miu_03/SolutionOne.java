@@ -10,7 +10,7 @@ package miu_03;
  */
 public class SolutionOne {
 
-    public char[] f(char[] a, int start, int len) {
+    public static char[] f(char[] a, int start, int len) {
         if (len < 0 || start < 0 || start + len - 1 >= a.length) {
             return null;
         }
