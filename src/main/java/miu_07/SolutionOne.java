@@ -10,7 +10,7 @@ package miu_07;
  */
 public class SolutionOne {
 
-    public int primeCount(int start, int end) {
+    public static int primeCount(int start, int end) {
         int count = 0;
         for (int i = start; i <= end; i++) {
             if (i > 1) {
