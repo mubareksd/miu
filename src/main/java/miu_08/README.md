@@ -9,7 +9,7 @@ int decodeArray(int[ ] a)
 If you are programming in C or C++, the function prototype is 
 int decodeArray(int a[ ], int len); 
 Examples 
-a  is then function  returns  reason 
+|a  is then function | returns  reason 
 {1} 0 because the digit 0 is represented by no zeros followed by a one. 
 {0, 1} 1 because the digit 1 is represented by one zero followed by a one. 
 {-1, 0, 1} -1 because the encoding of a negative number begins with a -1 followed by the encoding of the  absolute  value of the number. 

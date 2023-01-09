@@ -1,11 +1,8 @@
-package decodeArray;
+package miu_08;
 
 public class SolutionOne {
-    public static void main(String[] args) {
-        System.out.println(decodeArray(new int[] { 0, 1, 1, 1, 1, 1, 0, 1 }));
-    }
 
-    static int decodeArray(int[] a) {
+    public static int decodeArray(int[] a) {
 
         int decodeNumber = 0;
         int Positive = 1;

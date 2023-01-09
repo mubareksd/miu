@@ -1,4 +1,4 @@
-package systematicallyIncreasing;
+package miu_12;
 
 public class SolutionOne {
     public static void main(String[] args) {

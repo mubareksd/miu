@@ -1,4 +1,4 @@
-package zeroPlentiful;
+package miu_13;
 
 public class SolutionOne {
 

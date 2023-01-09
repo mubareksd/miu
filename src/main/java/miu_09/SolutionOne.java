@@ -1,14 +1,10 @@
-package isCubePowerfull;
+package miu_09;
 
 public class SolutionOne {
 
-    public static void main(String[] args) {
-        System.out.println(isCubePowerful(153));
-    }
+    public static int isCubePowerful(int n) {
 
-    static int isCubePowerful(int n) {
-
-        if (n < 0)
+        if (n <= 0)
             return 0;
 
         int k;

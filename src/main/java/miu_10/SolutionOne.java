@@ -1,12 +1,8 @@
-package doIntegerBasedRounding;
+package miu_10;
 
 import java.util.Arrays;
 
 public class SolutionOne {
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(doIntegerBasedRounding(new int[] { 1, 2, 3, 4, 5 }, 2)));
-    }
 
     static int[] doIntegerBasedRounding(int[] is, int i) {
         i = Math.abs(i);
