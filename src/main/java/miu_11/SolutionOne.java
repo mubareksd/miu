@@ -1,9 +1,6 @@
-package isSequencedArray;
+package miu_11;
 
 public class SolutionOne {
-    public static void main(String[] args) {
-        System.out.println(isSequencedArray(new int[]{1,2,3,4,5}, 1, 5));
-    }
 
     static int isSequencedArray(int[] a, int m, int n) {
 
