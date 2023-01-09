@@ -1,22 +1,20 @@
 package miu_10;
 
-import java.util.Arrays;
-
 public class SolutionOne {
 
-    static int[] doIntegerBasedRounding(int[] is, int i) {
-        i = Math.abs(i);
-        for (int j = 0; j < is.length; j++) {
-            int mod = is[j] % i;
-            if (is[j] >= 0) {
-                if (mod < i / 2f) {
-                    is[j] -= mod;
+    public static int[] doIntegerBasedRounding(int[] a, int n) {
+        n = Math.abs(n);
+        for (int i = 0; i < a.length; i++) {
+            int mod = a[i] % n;
+            if (a[i] > 0) {
+                if (mod < n / 2f) {
+                    a[i] -= mod;
                 } else {
-                    is[j] += (i - mod);
+                    a[i] += (n - mod);
                 }
             }
         }
-        return is;
+        return a;
     }
 
 }
