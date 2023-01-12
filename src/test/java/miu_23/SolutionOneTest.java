@@ -13,7 +13,7 @@ public class SolutionOneTest {
         int[] a = { 3, 2, 0, 5, 3 };
         int n = 32053;
         int expected = 1;
-        assertEquals(expected, SolutionOne.repsEqual(a, n));
+        assertEquals(expected, repsEqual(a, n));
     }
 
     @Test
@@ -21,7 +21,7 @@ public class SolutionOneTest {
         int[] a = { 3, 2, 0, 5 };
         int n = 32053;
         int expected = 0;
-        assertEquals(expected, SolutionOne.repsEqual(a, n));
+        assertEquals(expected, repsEqual(a, n));
     }
 
     @Test
@@ -29,7 +29,7 @@ public class SolutionOneTest {
         int[] a = { 3, 2, 0, 5, 3, 4 };
         int n = 32053;
         int expected = 0;
-        assertEquals(expected, SolutionOne.repsEqual(a, n));
+        assertEquals(expected, repsEqual(a, n));
     }
 
     @Test
@@ -37,7 +37,7 @@ public class SolutionOneTest {
         int[] a = { 2, 3, 0, 5, 3 };
         int n = 32053;
         int expected = 0;
-        assertEquals(expected, SolutionOne.repsEqual(a, n));
+        assertEquals(expected, repsEqual(a, n));
     }
 
     @Test
@@ -45,7 +45,7 @@ public class SolutionOneTest {
         int[] a = { 9, 3, 1, 1, 2 };
         int n = 32053;
         int expected = 0;
-        assertEquals(expected, SolutionOne.repsEqual(a, n));
+        assertEquals(expected, repsEqual(a, n));
     }
 
     @Test
@@ -53,6 +53,6 @@ public class SolutionOneTest {
         int[] a = { 0, 3, 2, 0, 5, 3 };
         int n = 32053;
         int expected = 1;
-        assertEquals(expected, SolutionOne.repsEqual(a, n));
+        assertEquals(expected, repsEqual(a, n));
     }
 }
