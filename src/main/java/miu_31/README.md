@@ -1,3 +1,5 @@
+# QUESTION 31
+
 A simple pattern match on the elements of an array A can be defined using another array P.
 Each element n of P is negative or positive (never zero) and defines the number of elements in a
 sequence in A. The first sequence in A starts at A[0] and its length is defined by P[0]. The second
@@ -34,5 +36,4 @@ value of p[0] should be the length of p. So, for example, if p={5, 2, -1, -2, 4}
 the array has 5 elements and that the last 4 define the pattern.
 Hint: Your function should have one loop nested in another. The outer loop iterates through the
 elements of P. The inner loop iterates through the next sequence of A. The upper bound of the
-inner loop is the absolute value of the current element of P. The lower bound of the inner loop is
-0. The loop variable of the inner loop is not used to index A!
+inner loop is the absolute value of the current element of P. The lower bound of the inner loop is 0. The loop variable of the inner loop is not used to index A!
