@@ -1,24 +1,32 @@
-- An array is defined to be inertial if the following conditions hold:
+# QUESTION 15
 
-  - a. it contains at least one odd value
-  - b. the maximum value in the array is even
-  - c. every odd value is greater than every even value that is not the maximum value.
+An array is defined to be inertial if the following conditions hold:
 
-- So {11, 4, 20, 9, 2, 8} is inertial because
+a. it contains at least one odd value
 
-  - a. it contains at least one odd value
-  - b. the maximum value in the array is 20 which is even
-  - c. the two odd values (11 and 9) are greater than all the even values that are not equal to 20 (the maximum), i.e., (4, 2, 8}.
+b. the maximum value in the array is even
 
-- However, {12, 11, 4, 9, 2, 3, 10} is not inertial because it fails condition (c), i.e., 10 (which is even) is greater 9 (which is odd) but 10 is not the maximum value in the array.
-- Write a function called isIntertial that accepts an integer array and returns 1 if the array is inertial; otherwise it returns 0.
-- If you are programming in Java or C#, the function signature is
+c. every odd value is greater than every even value that is not the maximum value.
 
-  `int isInertial(int[] a`
+So {11, 4, 20, 9, 2, 8} is inertial because
 
-- If you are programming in C or C++, the function signature is
+a. it contains at least one odd value
 
-  `int isInertial(int a[], int len)` where len is the number of elements in the array
+b. the maximum value in the array is 20 which is even
+
+c. the two odd values (11 and 9) are greater than all the even values that are not equal to 20 (the maximum), i.e., (4, 2, 8}.
+
+However, {12, 11, 4, 9, 2, 3, 10} is not inertial because it fails condition (c), i.e., 10 (which is even) is greater 9 (which is odd) but 10 is not the maximum value in the array.
+
+Write a function called isIntertial that accepts an integer array and returns 1 if the array is inertial; otherwise it returns 0.
+
+If you are programming in Java or C#, the function signature is
+
+`int isInertial(int[] a`
+
+If you are programming in C or C++, the function signature is
+
+`int isInertial(int a[], int len)` where len is the number of elements in the array
 
 Some other examples:
 
