@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package miu_05;
 
-/**
- *
- * @author mubareksd
- */
 public class SolutionOne {
 
     public static int[] f(int[] first, int[] second) {
@@ -17,8 +9,7 @@ public class SolutionOne {
         if (first.length == 0 || second.length == 0) {
             return new int[0];
         }
-        int min
-                = (first.length < second.length) ? first.length : second.length;
+        int min = (first.length < second.length) ? first.length : second.length;
         int[] a, b;
         if (min == first.length) {
             a = first;

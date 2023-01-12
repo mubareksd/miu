@@ -1,10 +1,8 @@
 package miu_27;
 
 import static miu_27.SolutionOne.isNUnique;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SolutionOneTest {
 

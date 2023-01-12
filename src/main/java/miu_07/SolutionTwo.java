@@ -1,13 +1,5 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package miu_07;
 
-/**
- *
- * @author mubareksd
- */
 public class SolutionTwo {
 
     public static int primeCount(int start, int end) {

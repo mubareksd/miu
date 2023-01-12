@@ -1,15 +1,6 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package miu_01;
 
-/**
- *
- * @author mubareksd
- */
 public class SolutionOne {
-
     public static int f(int[] a) {
         if (a == null || a.length % 2 == 0) {
             if (a == null || a.length % 2 == 0) {

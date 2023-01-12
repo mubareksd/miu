@@ -1,10 +1,8 @@
 package miu_21;
 
 import static miu_21.SolutionOne.guthrieIndex;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SolutionOneTest {
 

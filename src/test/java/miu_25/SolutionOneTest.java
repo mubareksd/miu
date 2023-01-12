@@ -1,10 +1,8 @@
 package miu_25;
 
 import static miu_25.SolutionOne.henry;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SolutionOneTest {
 

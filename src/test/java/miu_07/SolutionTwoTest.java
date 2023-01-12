@@ -1,19 +1,11 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
 package miu_07;
 
 import static miu_07.SolutionTwo.primeCount;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
-/**
- *
- * @author mubareksd
- */
 public class SolutionTwoTest {
-    
+
     @Test
     public void testOne() {
         int star = 10;
@@ -21,7 +13,7 @@ public class SolutionTwoTest {
         int expected = 6;
         assertEquals(expected, primeCount(star, end));
     }
-    
+
     @Test
     public void testTwo() {
         int star = 11;
@@ -29,7 +21,7 @@ public class SolutionTwoTest {
         int expected = 6;
         assertEquals(expected, primeCount(star, end));
     }
-    
+
     @Test
     public void testThree() {
         int star = 20;
@@ -37,7 +29,7 @@ public class SolutionTwoTest {
         int expected = 0;
         assertEquals(expected, primeCount(star, end));
     }
-    
+
     @Test
     public void testFour() {
         int star = 1;
@@ -45,7 +37,7 @@ public class SolutionTwoTest {
         int expected = 0;
         assertEquals(expected, primeCount(star, end));
     }
-    
+
     @Test
     public void testFive() {
         int star = 5;
@@ -53,7 +45,7 @@ public class SolutionTwoTest {
         int expected = 1;
         assertEquals(expected, primeCount(star, end));
     }
-    
+
     @Test
     public void testSix() {
         int star = 6;
@@ -61,7 +53,7 @@ public class SolutionTwoTest {
         int expected = 0;
         assertEquals(expected, primeCount(star, end));
     }
-    
+
     @Test
     public void testSeven() {
         int star = -10;

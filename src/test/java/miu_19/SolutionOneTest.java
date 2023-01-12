@@ -1,10 +1,8 @@
 package miu_19;
 
 import static miu_19.SolutionOne.stantonMeasure;
-
-import static org.junit.jupiter.api.Assertions.assertEquals;
-
 import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.*;
 
 public class SolutionOneTest {
 
