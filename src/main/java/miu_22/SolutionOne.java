@@ -1,13 +1,6 @@
 package miu_22;
 
-import java.util.Arrays;
-
 public class SolutionOne {
-
-    public static void main(String[] args) {
-        System.out.println(Arrays.toString(solve()));
-    }
-
     public static int[] solve() {
 
         int x = 0, y = 0;
@@ -36,5 +29,4 @@ public class SolutionOne {
 
         return fact;
     }
-
 }

@@ -1,10 +1,6 @@
 package miu_12;
 
 public class SolutionOne {
-    public static void main(String[] args) {
-        System.out.println(isSystematicallyIncreasing(new int[] { 1, 1, 2, 1, 2, 4 }));
-    }
-
     static int isSystematicallyIncreasing(int[] a) {
 
         int end = 1; // Track the end of the current sequence
@@ -27,5 +23,4 @@ public class SolutionOne {
 
         return 1;
     }
-
 }
