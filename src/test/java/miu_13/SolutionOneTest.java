@@ -30,20 +30,27 @@ public class SolutionOneTest {
     @Test
     public void testFour() {
         int[] a = { 1, 2, 3, 4 };
-        int expected = 1;
+        int expected = 0;
         assertEquals(expected, zeroPlentiful(a));
     }
 
     @Test
     public void testFive() {
         int[] a = { 1, 0, 0, 0, 2, 0, 0, 0, 0 };
-        int expected = 0;
+        int expected = 1;
         assertEquals(expected, zeroPlentiful(a));
     }
 
     @Test
     public void testSix() {
         int[] a = { 0 };
+        int expected = 0;
+        assertEquals(expected, zeroPlentiful(a));
+    }
+
+    @Test
+    public void testSeven() {
+        int[] a = {};
         int expected = 0;
         assertEquals(expected, zeroPlentiful(a));
     }
