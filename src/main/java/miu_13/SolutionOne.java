@@ -1,7 +1,6 @@
 package miu_13;
 
 public class SolutionOne {
-    // TODO: FIX
     static int zeroPlentiful(int[] a) {
 
         if (a.length < 4) {
