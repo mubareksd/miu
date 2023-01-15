@@ -9,6 +9,7 @@ the 13-based rounding of 9 is 13, because 9 is closer to 13 than it is to 0,
 Write a function named doIntegerBasedRounding that takes an integer array and rounds all its positive
 elements using n-based integer rounding.  
 A negative element of the array is not modified and if n <=0, no elements of the array are modified. Finally you may assume that the array has at least two elements.
+
 Hint: In integer arithmetic, (6/4) \* 4 = 4
 
 If you are programming in Java or C#, the function signature is

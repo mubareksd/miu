@@ -11,7 +11,8 @@ public class SolutionOneTest {
         int[] a = { 1, 2, 3, 4, 5 };
         int n = 2;
         int[] expected = { 2, 2, 4, 4, 6 };
-        assertArrayEquals(expected, doIntegerBasedRounding(a, n));
+        doIntegerBasedRounding(a, n);
+        assertArrayEquals(expected, a);
     }
 
     @Test
@@ -19,7 +20,8 @@ public class SolutionOneTest {
         int[] a = { 1, 2, 3, 4, 5 };
         int n = 3;
         int[] expected = { 0, 3, 3, 3, 6 };
-        assertArrayEquals(expected, doIntegerBasedRounding(a, n));
+        doIntegerBasedRounding(a, n);
+        assertArrayEquals(expected, a);
     }
 
     @Test
@@ -27,7 +29,8 @@ public class SolutionOneTest {
         int[] a = { 1, 2, 3, 4, 5 };
         int n = -3;
         int[] expected = { 1, 2, 3, 4, 5 };
-        assertArrayEquals(expected, doIntegerBasedRounding(a, n));
+        doIntegerBasedRounding(a, n);
+        assertArrayEquals(expected, a);
     }
 
     @Test
@@ -35,7 +38,8 @@ public class SolutionOneTest {
         int[] a = { -1, -2, -3, -4, -5 };
         int n = 3;
         int[] expected = { -1, -2, -3, -4, -5 };
-        assertArrayEquals(expected, doIntegerBasedRounding(a, n));
+        doIntegerBasedRounding(a, n);
+        assertArrayEquals(expected, a);
     }
 
     @Test
@@ -43,15 +47,17 @@ public class SolutionOneTest {
         int[] a = { -18, 1, 2, 3, 4, 5 };
         int n = 4;
         int[] expected = { -18, 0, 4, 4, 4, 4 };
-        assertArrayEquals(expected, doIntegerBasedRounding(a, n));
+        doIntegerBasedRounding(a, n);
+        assertArrayEquals(expected, a);
     }
 
     @Test
     public void testSix() {
-        int[] a = { -18, 0, 4, 4, 4, 4 };
+        int[] a = { 1, 2, 3, 4, 5 };
         int n = 5;
         int[] expected = { 0, 0, 5, 5, 5 };
-        assertArrayEquals(expected, doIntegerBasedRounding(a, n));
+        doIntegerBasedRounding(a, n);
+        assertArrayEquals(expected, a);
     }
 
     @Test
@@ -59,6 +65,7 @@ public class SolutionOneTest {
         int[] a = { 1, 2, 3, 4, 5 };
         int n = 100;
         int[] expected = { 0, 0, 0, 0, 0 };
-        assertArrayEquals(expected, doIntegerBasedRounding(a, n));
+        doIntegerBasedRounding(a, n);
+        assertArrayEquals(expected, a);
     }
 }
