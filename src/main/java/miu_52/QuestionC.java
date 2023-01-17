@@ -20,4 +20,37 @@ public class QuestionC {
 
         return largestDiff;
     }
+    
+    public static int largestDifferenceOfEvens2(int[] a) {
+        // boolean evenFlag = false;
+        // int evenCount = 0;
+
+        // int minEven = a[0];
+        // int maxEven = a[0];
+
+        // for(int i=0; i < a.length; i++) {
+        //     if(a[i] % 2 == 0) {
+        //         evenFlag = true;
+        //         minEven = a[i];
+        //         maxEven = a[i];
+        //         evenCount++;
+        //     }
+        // }
+
+        // if(evenFlag == false || evenCount < 2) {
+        //     return -1;
+        // }
+
+        // for(int i=0; i < a.length; i++) {
+
+        //     if(a[i] % 2 == 0) {
+        //         if(a[i] > maxEven) maxEven = a[i];
+        //         if(a[i] < minEven) minEven = a[i];
+        //     }
+
+        // }
+
+        // return maxEven - minEven;
+    }
+    
 }
