@@ -1,7 +1,5 @@
 package miu_53;
 
-import java.util.Arrays;
-
 public class QuestionC {
     public static int closestFib(int num) {
 

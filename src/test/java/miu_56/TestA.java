@@ -1,10 +1,7 @@
 package miu_56;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-
-import java.lang.reflect.Array;
 import java.util.Arrays;
-
 import org.junit.jupiter.api.Test;
 
 public class TestA {
