@@ -1,15 +1,10 @@
 package miu_40;
 
 public class SolutionOne {
-
-    public static void main(String[] args) {
-        System.out.println(smallest(4));
-    }
-
     public static int checkIfTwoExists(int n) {
 
-        while(n > 0) {
-            if(n % 10 == 2) {
+        while (n > 0) {
+            if (n % 10 == 2) {
                 return 1;
             }
             n = n / 10;
@@ -22,16 +17,16 @@ public class SolutionOne {
     public static int smallest(int n) {
 
         int i = 1;
-        for(;;) {
+        for (;;) {
             int contain = 0;
             int k = 0;
-            for(int j=1; j <= n; j++) {
+            for (int j = 1; j <= n; j++) {
                 k = i * j;
-                if(checkIfTwoExists(k) == 1) {
+                if (checkIfTwoExists(k) == 1) {
                     contain++;
                 }
             }
-            if(contain == n) {
+            if (contain == n) {
                 break;
             }
             i++;
@@ -41,52 +36,39 @@ public class SolutionOne {
 
     }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
     // static int checkIfTwoExists(int n) {
 
-    //     while (n > 0) {
-    //         if (n % 10 == 2) {
-    //             return 1;
-    //         }
-    //         n = n / 10;
-    //     }
+    // while (n > 0) {
+    // if (n % 10 == 2) {
+    // return 1;
+    // }
+    // n = n / 10;
+    // }
 
-    //     return 0;
+    // return 0;
 
     // }
 
     // public static int smallest(int n) {
-    //     int i = 1;
-    //     for (;;) {
-    //         int contain = 0;
-    //         int myNum = 0;
-    //         for (int j = 1; j <= n; j++) {
-    //             myNum = i * j;
+    // int i = 1;
+    // for (;;) {
+    // int contain = 0;
+    // int myNum = 0;
+    // for (int j = 1; j <= n; j++) {
+    // myNum = i * j;
 
-    //             if (checkIfTwoExists(myNum) == 1) {
-    //                 contain++;
+    // if (checkIfTwoExists(myNum) == 1) {
+    // contain++;
 
-    //             }
-    //         }
-    //         if (contain == n) {
-    //             break;
-    //         }
+    // }
+    // }
+    // if (contain == n) {
+    // break;
+    // }
 
-    //         i++;
+    // i++;
 
-    //     }
-    //     return i;
+    // }
+    // return i;
     // }
 }

@@ -3,11 +3,6 @@ package miu_53;
 import java.util.Arrays;
 
 public class QuestionC {
-    
-    public static void main(String[] args) {
-        System.out.println(closestFib(34));
-    }
-
     public static int closestFib(int num) {
 
         int n1 = 0;
@@ -16,11 +11,11 @@ public class QuestionC {
 
         int closest = 0;
 
-        for(int i=1; i < num; i++) {
+        for (int i = 1; i < num; i++) {
             n3 = n1 + n2;
             n1 = n2;
             n2 = n3;
-            if(n1 > closest && n1 <= num) {
+            if (n1 > closest && n1 <= num) {
                 closest = n1;
             }
 
@@ -31,8 +26,6 @@ public class QuestionC {
     }
 
     // public static int closestFibonacci(int n) {
-
-
 
     // }
 

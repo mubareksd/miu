@@ -1,23 +1,17 @@
 package miu_46;
 
 public class QuestionA {
-
-    public static void main(String[] args) {
-        int a = -250 % 125;
-        System.out.println(a);
-    }
-
     public static int getExponent(int n, int p) {
 
-        if(p <= 1) {
+        if (p <= 1) {
             return -1;
         }
 
         int exp = 0;
         int largestExp = 0;
 
-        while(Math.abs(n) >= (int) Math.pow(p, exp)) {
-            if(n % (int) Math.pow(p, exp) == 0) {
+        while (Math.abs(n) >= (int) Math.pow(p, exp)) {
+            if (n % (int) Math.pow(p, exp) == 0) {
                 System.out.println(exp);
                 largestExp = exp;
             }
@@ -27,5 +21,5 @@ public class QuestionA {
         return largestExp;
 
     }
-    
+
 }
