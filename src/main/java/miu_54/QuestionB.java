@@ -25,4 +25,39 @@ public class QuestionB {
             return 0;
         return 1;
     }
+    
+    public static int isOneBalanced2(int[] a) {
+
+        int startOnes = 0;
+        int endOnes = 0;
+        int middleNonOnes = 0;
+
+        // count how many ones are at the start
+        for(int i=0; i < a.length; i++) {
+            if(a[i] != 1) {
+                break;
+            }
+            startOnes++;
+        }
+
+        // count how many ones are at the end
+        for(int i=a.length-1; i >= 0; i--) {
+            if(a[i] != 1) {
+                break;
+            }
+            endOnes++;
+        }
+
+        // check if ones exist in the middle
+        for(int i=startOnes; i < a.length - endOnes; i++) {
+            if(a[i] == 1) {
+                break;
+            }
+            middleNonOnes++;
+        }
+
+        return startOnes + endOnes == middleNonOnes ? 1 : 0;
+
+    }
+    
 }
