@@ -2,7 +2,7 @@ package miu_15;
 
 public class SolutionTwo {
 
-    static int isInertial(int[] a) {
+    public static int isInertial(int[] a) {
         int hasOdd = 0;
         int max = a[0];
         for (int i = 0; i < a.length; i++) {

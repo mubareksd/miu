@@ -1,7 +1,7 @@
 package pairwiseSum;
 
 public class PairwiseSum {
-    static int[] pairwiseSum(int[] a) {
+    public static int[] pairwiseSum(int[] a) {
 
         if (a.length % 2 == 0 && a.length != 0) {
             int[] newA = new int[a.length / 2];

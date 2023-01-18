@@ -1,7 +1,7 @@
 package nUpCount;
 
 public class UpCount {
-    static int nUpCount(int[] a, int n) {
+    public static int nUpCount(int[] a, int n) {
         int count = 0;
         int partialSum = 0;
         int previousPartialSum = 0;

@@ -1,7 +1,5 @@
 package miu_56;
 
-import java.util.Arrays;
-
 public class QuestionA {
     public static int[] computeHMS(int n) {
 

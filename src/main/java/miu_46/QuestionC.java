@@ -1,7 +1,5 @@
 package miu_46;
 
-import java.util.Arrays;
-
 public class QuestionC {
     public static int[] filterArray(int[] a, int n) {
 

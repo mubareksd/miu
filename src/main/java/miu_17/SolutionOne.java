@@ -4,7 +4,7 @@ import static prime.Prime.*;
 
 public class SolutionOne {
 
-    static int nextPrimeEndsNine(int n) {
+    public static int nextPrimeEndsNine(int n) {
         int k = n + 1;
         while (!isPrime(k) || k % 10 != 9) {
             k++;
@@ -13,7 +13,7 @@ public class SolutionOne {
         return k;
     }
 
-    static int findPorcupineNumber(int n) {
+    public static int findPorcupineNumber(int n) {
 
         int num = 0;
 

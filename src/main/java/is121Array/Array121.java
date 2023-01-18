@@ -1,7 +1,7 @@
 package is121Array;
 
 public class Array121 {
-    static int is121Array(int[] a) {
+    public static int is121Array(int[] a) {
         if (a.length < 3 || a[0] != 1 || a[a.length - 1] != 1)
             return 0;
 

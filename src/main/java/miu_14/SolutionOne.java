@@ -2,7 +2,7 @@ package miu_14;
 
 public class SolutionOne {
 
-    static int isMadhavArray(int[] a) {
+    public static int isMadhavArray(int[] a) {
         Boolean flag = false;
         int ret = 1;
         for (int n = 0; n < a.length; n++) {
