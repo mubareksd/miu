@@ -1,4 +1,4 @@
-package miu_07;
+package primeCount;
 
 public class SolutionTwo {
 

@@ -1,8 +1,8 @@
-package miu_07;
+package primeCount;
 
-import static miu_07.SolutionOne.primeCount;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import static primeCount.SolutionOne.primeCount;
 
 public class SolutionOneTest {
 
