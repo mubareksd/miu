@@ -1,6 +1,6 @@
 package miu_17;
 
-import static isPrime.Prime.*;
+import static prime.Prime.*;
 
 public class SolutionOne {
 

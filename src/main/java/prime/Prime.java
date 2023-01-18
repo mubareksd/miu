@@ -1,4 +1,4 @@
-package isPrime;
+package prime;
 
 public class Prime {
     public static boolean isPrime(int n) {

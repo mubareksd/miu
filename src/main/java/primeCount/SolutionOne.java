@@ -1,6 +1,6 @@
 package primeCount;
 
-import static isPrime.Prime.isPrime;
+import static prime.Prime.isPrime;
 
 public class SolutionOne {
 
