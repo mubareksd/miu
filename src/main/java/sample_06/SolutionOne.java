@@ -1,4 +1,4 @@
-package miu_06;
+package sample_06;
 
 public class SolutionOne {
 

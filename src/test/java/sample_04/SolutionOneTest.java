@@ -1,8 +1,8 @@
-package miu_04;
+package sample_04;
 
-import static miu_04.SolutionOne.f;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
+import static sample_04.SolutionOne.f;
 
 public class SolutionOneTest {
 

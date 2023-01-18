@@ -1,4 +1,4 @@
-package miu_03;
+package sample_03;
 
 public class SolutionOne {
     public static char[] f(char[] a, int start, int len) {

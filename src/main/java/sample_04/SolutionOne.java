@@ -1,4 +1,4 @@
-package miu_04;
+package sample_04;
 
 public class SolutionOne {
     public static int f(int n) {

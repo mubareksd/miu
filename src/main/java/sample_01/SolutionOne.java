@@ -1,4 +1,4 @@
-package miu_01;
+package sample_01;
 
 public class SolutionOne {
     public static int f(int[] a) {
