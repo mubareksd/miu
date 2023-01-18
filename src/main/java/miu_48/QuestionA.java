@@ -12,7 +12,7 @@ public class QuestionA {
         return primeNumber;
     }
 
-    public static int largestPrimeFactor(int n) {
+    static int largestPrimeFactor(int n) {
         int large = 0;
 
         if (n <= 1)

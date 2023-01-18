@@ -2,7 +2,7 @@ package miu_37;
 
 public class SolutionOne {
 
-	public static int countRepresentations(int numRupees) {
+	static int countRepresentations(int numRupees) {
 		int count = 0;
 		for (int rupee20 = 0; rupee20 <= (numRupees) / 20; rupee20++) {
 			for (int rupee10 = 0; rupee10 <= (numRupees - (rupee20 * 20)) / 10; rupee10++) {

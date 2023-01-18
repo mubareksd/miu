@@ -16,7 +16,7 @@ public class QuestionB {
             return (n * factorial(n - 1));
     }
 
-    public static int isFactorialPrime(int n) {
+    static int isFactorialPrime(int n) {
         if (isPrime(n)) {
             int sum = 0;
             for (int i = 1; i < n && sum < n; i++) {

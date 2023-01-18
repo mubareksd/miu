@@ -4,7 +4,7 @@ import java.util.*;
 
 public class QuestionB {
 
-    public static int[] encodeNumber(int n) {
+    static int[] encodeNumber(int n) {
         List<Integer> primeFactors = new ArrayList<>();
 
         if (n <= 1)

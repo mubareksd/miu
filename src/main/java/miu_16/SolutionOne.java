@@ -12,7 +12,7 @@ public class SolutionOne {
         return 0;
     }
 
-    public static int countSquarePairs(int[] a) {
+    static int countSquarePairs(int[] a) {
 
         if (a.length < 2) {
             return 0;

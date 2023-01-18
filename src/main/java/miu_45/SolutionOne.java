@@ -1,29 +1,28 @@
 package miu_45;
 
 public class SolutionOne {
-    
-    public static int isOddHeavy(int[] a) {
+
+    static int isOddHeavy(int[] a) {
 
         boolean gotOdd = false;
 
-        for(int i=0; i < a.length; i++) {
-            if(a[i] % 2 != 0) {
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] % 2 != 0) {
                 gotOdd = true;
             }
         }
 
-        if(gotOdd) {
-            for(int i=0; i < a.length; i++) {
-                if(a[i] % 2 != 0) {
-                    for(int j=0; j < a.length; j++) {
-                        if(a[i] < a[j]) {
+        if (gotOdd) {
+            for (int i = 0; i < a.length; i++) {
+                if (a[i] % 2 != 0) {
+                    for (int j = 0; j < a.length; j++) {
+                        if (a[i] < a[j]) {
                             return 0;
                         }
                     }
                 }
             }
-        }
-        else {
+        } else {
             return 0;
         }
 

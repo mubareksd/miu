@@ -1,7 +1,7 @@
 package miu_56;
 
 public class QuestionA {
-    public static int[] computeHMS(int n) {
+    static int[] computeHMS(int n) {
 
         int hour = 0;
         int minute = 0;

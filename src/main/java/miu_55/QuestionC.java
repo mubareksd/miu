@@ -1,7 +1,7 @@
 package miu_55;
 
 public class QuestionC {
-    public static int is235Array(int[] a) {
+    static int is235Array(int[] a) {
 
         int sum = 0;
         int twos = 0;

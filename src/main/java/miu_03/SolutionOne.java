@@ -1,7 +1,7 @@
 package miu_03;
 
 public class SolutionOne {
-    public static char[] f(char[] a, int start, int len) {
+    static char[] f(char[] a, int start, int len) {
         if (start < 0 || len < 0 || start + len - 1 >= a.length)
             return null;
 

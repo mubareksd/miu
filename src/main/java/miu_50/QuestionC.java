@@ -2,7 +2,7 @@ package miu_50;
 
 public class QuestionC {
 
-    public static int decodeArray(int[] a) {
+    static int decodeArray(int[] a) {
         int start = 0, i, count = 0, ans = 0;
         if (a[0] == -1)
             start = 1;

@@ -1,7 +1,7 @@
 package miu_52;
 
 public class QuestionA {
-    public static int isSystematicallyIncreasing(int[] a) {
+    static int isSystematicallyIncreasing(int[] a) {
         int index = 0;
         int i = 0;
         do {

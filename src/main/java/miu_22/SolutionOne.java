@@ -1,7 +1,7 @@
 package miu_22;
 
 public class SolutionOne {
-    public static int[] solve() {
+    static int[] solve() {
 
         int x = 0, y = 0;
 

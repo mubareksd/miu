@@ -1,7 +1,7 @@
 package miu_47;
 
 public class QuestionB {
-    public static int checkConcatenatedSum(int n, int catlen) {
+    static int checkConcatenatedSum(int n, int catlen) {
 
         int sum = 0;
         int tempn = n;

@@ -2,7 +2,7 @@ package miu_08;
 
 public class SolutionOne {
 
-    public static int decodeArray(int[] a) {
+    static int decodeArray(int[] a) {
 
         int decodeNumber = 0;
         int Positive = 1;

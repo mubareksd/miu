@@ -1,7 +1,7 @@
 package miu_54;
 
 public class QuestionA {
-    public static int isVesuvian(int n) {
+    static int isVesuvian(int n) {
         int count = 0;
         for (int i = 1; (i * i) < n; i++) {
             int sum1 = i * i;

@@ -2,7 +2,7 @@ package miu_27;
 
 public class SolutionOne {
 
-    public static int isNUnique(int[] a, int n) {
+    static int isNUnique(int[] a, int n) {
         int count = 0;
         if (a.length > 1) {
             for (int i = 0; i < a.length; i++) {

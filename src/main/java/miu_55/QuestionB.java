@@ -1,7 +1,7 @@
 package miu_55;
 
 public class QuestionB {
-    public static int isMercurial(int[] a) {
+    static int isMercurial(int[] a) {
 
         boolean left1 = false;
         boolean right1 = false;

@@ -1,7 +1,7 @@
 package miu_49;
 
 public class QuestionC {
-    public static int decodeArray(int[] a) {
+    static int decodeArray(int[] a) {
 
         int sign = 1;
         int encode = 0;

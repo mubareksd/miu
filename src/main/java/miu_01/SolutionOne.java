@@ -1,7 +1,7 @@
 package miu_01;
 
 public class SolutionOne {
-    public static int f(int[] a) {
+    static int f(int[] a) {
         if (a == null || a.length % 2 == 0)
             return 0;
         int midIndex = a.length / 2;

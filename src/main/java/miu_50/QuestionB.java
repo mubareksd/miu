@@ -2,7 +2,7 @@ package miu_50;
 
 public class QuestionB {
 
-    public static int isDigitIncreasing(int n) {
+    static int isDigitIncreasing(int n) {
         int sum, pow, i;
 
         for (i = 1; i <= 9; i++) {

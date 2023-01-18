@@ -2,7 +2,7 @@ package miu_09;
 
 public class SolutionOne {
 
-    public static int isCubePowerful(int n) {
+    static int isCubePowerful(int n) {
 
         if (n <= 0)
             return 0;

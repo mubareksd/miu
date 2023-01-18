@@ -1,7 +1,7 @@
 package miu_53;
 
 public class QuestionC {
-    public static int closestFib(int num) {
+    static int closestFib(int num) {
 
         int n1 = 0;
         int n2 = 1;
@@ -23,7 +23,7 @@ public class QuestionC {
 
     }
 
-    // public static int closestFibonacci(int n) {
+    // static int closestFibonacci(int n) {
 
     // }
 

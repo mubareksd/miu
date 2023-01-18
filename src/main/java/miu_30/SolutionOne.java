@@ -1,18 +1,17 @@
 package miu_30;
 
 public class SolutionOne {
-    
 
-    public static int convertToBase10(int []a, int base) {
+    static int convertToBase10(int[] a, int base) {
 
-        if(isLegalNumber(a, base) == 0) {
+        if (isLegalNumber(a, base) == 0) {
             return 0;
         }
 
         int sum = 0;
         int power = 0;
 
-        for(int i=a.length - 1; i >= 0; i--) {
+        for (int i = a.length - 1; i >= 0; i--) {
             sum += (a[i] * Math.pow(base, power));
             System.out.println(sum);
             power++;
@@ -21,11 +20,11 @@ public class SolutionOne {
         return sum;
 
     }
-        
-    public static int isLegalNumber(int[] a, int base) {
 
-        for(int i=a.length - 1; i > 0; i--) {
-            if(a[i] > base) {
+    static int isLegalNumber(int[] a, int base) {
+
+        for (int i = a.length - 1; i > 0; i--) {
+            if (a[i] > base) {
                 return 0;
             }
 
@@ -33,6 +32,6 @@ public class SolutionOne {
 
         return 1;
 
-    } 
+    }
 
 }

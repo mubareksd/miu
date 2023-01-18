@@ -1,7 +1,7 @@
 package miu_02;
 
 public class SolutionOne {
-    public static int f(int[] a) {
+    static int f(int[] a) {
         int x = 0;
         int y = 0;
 

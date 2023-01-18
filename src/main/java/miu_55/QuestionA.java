@@ -1,7 +1,7 @@
 package miu_55;
 
 public class QuestionA {
-    public static int isTriangular(int n) {
+    static int isTriangular(int n) {
 
         int i = 1;
         int sum = 0;

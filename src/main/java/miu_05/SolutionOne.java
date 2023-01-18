@@ -4,7 +4,7 @@ import java.util.*;
 
 public class SolutionOne {
 
-    public static int[] f(int[] first, int[] second) {
+    static int[] f(int[] first, int[] second) {
         if (first == null || second == null) {
             return null;
         }

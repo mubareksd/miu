@@ -1,7 +1,7 @@
 package miu_46;
 
 public class QuestionC {
-    public static int[] filterArray(int[] a, int n) {
+    static int[] filterArray(int[] a, int n) {
 
         int indexCount = 0;
         int digitIndex = 0;

@@ -2,7 +2,7 @@ package miu_19;
 
 public class SolutionOne {
 
-    public static int stantonMeasure(int[] a) {
+    static int stantonMeasure(int[] a) {
         int n = 0;
         int stanton = 0;
         for (int i = 0; i < a.length; i++) {

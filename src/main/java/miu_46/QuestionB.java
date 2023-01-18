@@ -1,7 +1,7 @@
 package miu_46;
 
 public class QuestionB {
-    public static int is121Array(int[] a) {
+    static int is121Array(int[] a) {
 
         if (a[0] != 1) {
             return 0;

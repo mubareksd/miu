@@ -1,7 +1,7 @@
 package miu_46;
 
 public class QuestionA {
-    public static int getExponent(int n, int p) {
+    static int getExponent(int n, int p) {
 
         if (p <= 1) {
             return -1;

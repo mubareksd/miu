@@ -2,7 +2,7 @@ package miu_25;
 
 public class SolutionOne {
 
-    public static int henry(int i, int j) {
+    static int henry(int i, int j) {
         int perf = 0;
         int count = 0;
         for (int k = 1;; k++) {

@@ -2,14 +2,14 @@ package miu_24;
 
 public class SolutionOne {
 
-    public static int isCentered15(int[] a) {
+    static int isCentered15(int[] a) {
 
-        for(int position = 0; 2 * position < a.length; position++) {
+        for (int position = 0; 2 * position < a.length; position++) {
             int sum = 0;
-            for(int index = position; index < a.length - position; index++) {
+            for (int index = position; index < a.length - position; index++) {
                 sum += a[index];
             }
-            if(sum == 15) {
+            if (sum == 15) {
                 return 1;
             }
         }

@@ -1,7 +1,7 @@
 package miu_10;
 
 public class SolutionOne {
-    public static void doIntegerBasedRounding(int[] a, int n) {
+    static void doIntegerBasedRounding(int[] a, int n) {
         if (n <= 0)
             return;
 

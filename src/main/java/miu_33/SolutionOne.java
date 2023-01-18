@@ -1,17 +1,17 @@
 package miu_33;
 
 public class SolutionOne {
-    
-    public static int isSumSafe(int[] a) {
+
+    static int isSumSafe(int[] a) {
 
         int sum = 0;
 
-        for(int i=0; i < a.length; i++) {
+        for (int i = 0; i < a.length; i++) {
             sum += a[i];
         }
 
-        for(int i=0; i < a.length; i++) {
-            if(a[i] == sum) {
+        for (int i = 0; i < a.length; i++) {
+            if (a[i] == sum) {
                 return 0;
             }
         }

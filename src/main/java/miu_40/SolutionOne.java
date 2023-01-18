@@ -1,7 +1,7 @@
 package miu_40;
 
 public class SolutionOne {
-    public static int checkIfTwoExists(int n) {
+    static int checkIfTwoExists(int n) {
 
         while (n > 0) {
             if (n % 10 == 2) {
@@ -14,7 +14,7 @@ public class SolutionOne {
 
     }
 
-    public static int smallest(int n) {
+    static int smallest(int n) {
 
         int i = 1;
         for (;;) {
@@ -49,7 +49,7 @@ public class SolutionOne {
 
     // }
 
-    // public static int smallest(int n) {
+    // static int smallest(int n) {
     // int i = 1;
     // for (;;) {
     // int contain = 0;

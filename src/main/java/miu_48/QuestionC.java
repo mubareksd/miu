@@ -2,7 +2,7 @@ package miu_48;
 
 public class QuestionC {
 
-    public static int matchPattern(int[] a, int[] pattern) {
+    static int matchPattern(int[] a, int[] pattern) {
         int i = 0;
         int k = 0;
         int matches = 0;

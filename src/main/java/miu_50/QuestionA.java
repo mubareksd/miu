@@ -1,7 +1,7 @@
 package miu_50;
 
 public class QuestionA {
-    public static int isZeroPlentiful(int[] a) {
+    static int isZeroPlentiful(int[] a) {
         if (a.length < 4)
             return 0;
 

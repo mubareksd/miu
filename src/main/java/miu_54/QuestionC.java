@@ -2,7 +2,7 @@ package miu_54;
 
 public class QuestionC {
 
-    public static int isFibonacci(int n) {
+    static int isFibonacci(int n) {
         if (n == 1)
             return 1;
 

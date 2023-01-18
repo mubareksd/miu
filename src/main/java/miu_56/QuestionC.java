@@ -1,7 +1,7 @@
 package miu_56;
 
 public class QuestionC {
-    public static int isPairedN(int[] a, int n) {
+    static int isPairedN(int[] a, int n) {
 
         int sumUp = 0;
 

@@ -2,7 +2,7 @@ package miu_06;
 
 public class SolutionOne {
 
-    public static int f(int[] a) {
+    static int f(int[] a) {
         if (a.length < 3) {
             return -1;
         }
