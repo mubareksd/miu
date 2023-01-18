@@ -1,10 +1,10 @@
-package primeCount;
+package prime;
 
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
-import static primeCount.SolutionOne.primeCount;
+import static prime.Prime.primeCount;
 
-public class SolutionOneTest {
+public class PrimeTest {
 
     @Test
     public void testOne() {
