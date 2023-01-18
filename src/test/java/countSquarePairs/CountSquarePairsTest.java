@@ -1,10 +1,10 @@
-package miu_16;
+package countSquarePairs;
 
-import static miu_16.SolutionOne.countSquarePairs;
-import org.junit.jupiter.api.Test;
+import static countSquarePairs.CountSquarePairs.countSquarePairs;
 import static org.junit.jupiter.api.Assertions.*;
+import org.junit.jupiter.api.Test;
 
-public class SolutionOneTest {
+public class CountSquarePairsTest {
 
     @Test
     void TestOne() {

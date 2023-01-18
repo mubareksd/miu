@@ -1,20 +1,20 @@
 package perfectSquare;
 
 public class PerfectSquare {
-    static int isPerfectSquare(int n) {
-        int perfect = 0;
+    public static boolean isPerfectSquare(int n) {
+        boolean perfect = false;
 
         if (n >= 0)
             for (int i = 0; i <= n; i++)
                 if (i * i == n)
-                    perfect = 1;
+                    perfect = true;
 
         return perfect;
     }
 
-    static int nextPerfectSquare(int n) {
+    public static int nextPerfectSquare(int n) {
         for (int i = n + 1;; i++) {
-            if (isPerfectSquare(i) == 1)
+            if (isPerfectSquare(i))
                 return i;
         }
     }
