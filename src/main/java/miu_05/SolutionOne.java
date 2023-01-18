@@ -1,5 +1,7 @@
 package miu_05;
 
+import java.util.*;
+
 public class SolutionOne {
 
     public static int[] f(int[] first, int[] second) {
@@ -33,5 +35,27 @@ public class SolutionOne {
             retArray[t] = c[t];
         }
         return retArray;
+    }
+
+    static int[] f2(int[] first, int[] second) {
+        List<Integer> newL = new ArrayList<>();
+        if (first == null || second == null)
+            return null;
+        if (first.length == 0 || second.length == 0)
+            return new int[0];
+
+        for (int i = 0; i < first.length; i++) {
+            for (int j = 0; j < second.length; j++) {
+                if (first[i] == second[j]) {
+                    newL.add(first[i]);
+                    break;
+                }
+            }
+        }
+        int[] a = new int[newL.size()];
+        for (int i = 0; i < newL.size(); i++) {
+            a[i] = newL.get(i);
+        }
+        return a;
     }
 }
