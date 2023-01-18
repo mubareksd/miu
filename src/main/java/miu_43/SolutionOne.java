@@ -1,12 +1,7 @@
 package miu_43;
 
 public class SolutionOne {
-
-    public static void main(String[] args) {
-        System.out.println(fullnessQuotient(9));
-    }
-    
-    static int fullnessQuotient(int n) {
+    public static int fullnessQuotient(int n) {
         if (n < 1)
             return -1;
 

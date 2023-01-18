@@ -1,7 +1,7 @@
 package miu_12;
 
 public class SolutionOne {
-    static int isSystematicallyIncreasing(int[] a) {
+    public static int isSystematicallyIncreasing(int[] a) {
 
         int end = 1; // Track the end of the current sequence
         int index = 0; // Track the index of the array

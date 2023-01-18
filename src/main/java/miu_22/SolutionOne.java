@@ -19,7 +19,7 @@ public class SolutionOne {
         return new int[] { 0, 0 };
     }
 
-    static int getFactorial(int n) {
+    public static int getFactorial(int n) {
 
         int fact = n;
 

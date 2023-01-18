@@ -1,15 +1,10 @@
 package miu_52;
 
-public class QuestionB {
-    static boolean isPrime(int n) {
-        for (int i = 2; i < n; i++) {
-            if (n % i == 0)
-                return false;
-        }
-        return n > 0;
-    }
+import static prime.Prime.isPrime;
 
-    static int factorial(int n) {
+public class QuestionB {
+
+    public static int factorial(int n) {
         if (n == 0 || n == 1)
             return 1;
         else

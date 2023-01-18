@@ -1,11 +1,6 @@
 package miu_55;
 
 public class QuestionB {
-
-    public static void main(String[] args) {
-        System.out.println(isMercurial(new int[] {5, 2, 10, 3, 15, 1, 2, 2}));
-    }
-
     public static int isMercurial(int[] a) {
 
         boolean left1 = false;

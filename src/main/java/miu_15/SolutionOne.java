@@ -2,7 +2,7 @@ package miu_15;
 
 public class SolutionOne {
 
-    static int isInertial(int[] a) {
+    public static int isInertial(int[] a) {
         int odd = 0;
         int max = a[0];
         int flag = 1;

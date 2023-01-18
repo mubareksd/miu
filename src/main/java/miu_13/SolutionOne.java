@@ -1,7 +1,7 @@
 package miu_13;
 
 public class SolutionOne {
-    static int zeroPlentiful(int[] a) {
+    public static int zeroPlentiful(int[] a) {
 
         if (a.length < 4) {
             return 0;

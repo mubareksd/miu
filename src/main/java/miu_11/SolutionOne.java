@@ -1,8 +1,7 @@
 package miu_11;
 
 public class SolutionOne {
-
-    static int isSequencedArray(int[] a, int m, int n) {
+    public static int isSequencedArray(int[] a, int m, int n) {
 
         int b = 0;
 
