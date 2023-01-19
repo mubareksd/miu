@@ -10,8 +10,8 @@ Write a function name isDaphneArray that returns 1 if its array argument is a Da
 
 If you are programming in Java or C#, the function signature is
 
-`intisDaphneArray(int[ ] a)`
+`int isDaphneArray(int[ ] a)`
 
 If you are programming in C or C++, the function signature is
 
-`intisDaphneArray(int a[ ], intlen)` where len is the number of elements in a.
+`int isDaphneArray(int a[ ], int len)` where len is the number of elements in a.
