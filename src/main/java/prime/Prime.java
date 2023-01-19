@@ -2,13 +2,10 @@ package prime;
 
 public class Prime {
     public static boolean isPrime(int n) {
-        boolean prime = true;
         for (int i = 2; i < n; i++)
-            if (n % i == 0) {
-                prime = false;
-                break;
-            }
-        return prime;
+            if (n % i == 0)
+                return false;
+        return true;
     }
 
     public static int nextPrime(int n) {
