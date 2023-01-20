@@ -11,12 +11,10 @@ public class QuestionB {
             if (i < a.length - 1)
                 if (a[i] == a[i + 1])
                     return 0;
-            if (a[i] == 1) {
+            if (a[i] == 1)
                 numOnes++;
-            }
-            if (a[i] == 2) {
+            if (a[i] == 2)
                 numTwos++;
-            }
         }
 
         return numOnes > numTwos ? 1 : 0;
