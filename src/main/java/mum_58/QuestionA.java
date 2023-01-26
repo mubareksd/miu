@@ -2,7 +2,7 @@ package mum_58;
 
 public class QuestionA {
 
-    static int f(char[] a) {
+    public static int f(char[] a) {
 
         if (a == null)
             return -1;
