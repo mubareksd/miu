@@ -2,7 +2,7 @@ package miu_57;
 
 public class QuestionC {
 
-    static int isCucumber(int[] a) {
+    public static int isCucumber(int[] a) {
 
         int count = 0;
 

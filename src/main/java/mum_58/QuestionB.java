@@ -6,7 +6,7 @@ public class QuestionB {
         System.out.println(f(new char[] { 'j', '2', 'k', '1' }));
     }
 
-    static int f(char[] a) {
+    public static int f(char[] a) {
 
         int score = 0;
 
