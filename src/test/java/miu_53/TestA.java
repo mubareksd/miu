@@ -1,11 +1,11 @@
 package miu_53;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
 public class TestA {
-    
+
     @Test
     void TestOne() {
         int n = 31;

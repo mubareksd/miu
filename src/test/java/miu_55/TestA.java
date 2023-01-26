@@ -1,6 +1,6 @@
 package miu_55;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
@@ -40,5 +40,5 @@ public class TestA {
         int expected = 0;
         assertEquals(expected, QuestionA.isTriangular(n));
     }
-    
+
 }

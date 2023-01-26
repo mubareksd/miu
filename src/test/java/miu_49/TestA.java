@@ -1,6 +1,6 @@
 package miu_49;
 
-import static org.junit.jupiter.api.Assertions.assertArrayEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 import static miu_49.QuestionA.doIntegerBasedRounding;

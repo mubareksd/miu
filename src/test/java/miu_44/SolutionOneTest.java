@@ -1,6 +1,6 @@
 package miu_44;
 
-import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.Test;
 
@@ -73,7 +73,7 @@ public class SolutionOneTest {
     @Test
     void TestEight() {
 
-        int[] a = {1, 2, 1};
+        int[] a = { 1, 2, 1 };
         int expected = 0;
         assertEquals(expected, SolutionOne.isPacked(a));
 
@@ -82,7 +82,7 @@ public class SolutionOneTest {
     @Test
     void TestNine() {
 
-        int[] a = {2, 1, 1};
+        int[] a = { 2, 1, 1 };
         int expected = 0;
         assertEquals(expected, SolutionOne.isPacked(a));
 
@@ -91,7 +91,7 @@ public class SolutionOneTest {
     @Test
     void TestTen() {
 
-        int[] a = {-3, -3, -3};
+        int[] a = { -3, -3, -3 };
         int expected = 0;
         assertEquals(expected, SolutionOne.isPacked(a));
 
@@ -100,7 +100,7 @@ public class SolutionOneTest {
     @Test
     void TestEleven() {
 
-        int[] a = {2,1,2};
+        int[] a = { 2, 1, 2 };
         int expected = 0;
         assertEquals(expected, SolutionOne.isPacked(a));
 
@@ -109,7 +109,7 @@ public class SolutionOneTest {
     @Test
     void TestTweleve() {
 
-        int[] a = {0, 2, 2};
+        int[] a = { 0, 2, 2 };
         int expected = 0;
         assertEquals(expected, SolutionOne.isPacked(a));
 
